@@ -1,3 +1,11 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
 
 # Created by https://www.gitignore.io/api/c,vim,c++,java,linux,julia,python,intellij,jupyternotebook,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=c,vim,c++,java,linux,julia,python,intellij,jupyternotebook,visualstudiocode

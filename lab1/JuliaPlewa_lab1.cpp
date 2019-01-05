@@ -19,8 +19,8 @@ void ex2() {
     file_b.precision(15);
     file_a.setf(std::ios::scientific);
     file_b.setf(std::ios::scientific);
-    file_a.open("ex2_a.txt");
-    file_b.open("ex2_b.txt");
+    file_a.open("csv/ex2_a.csv");
+    file_b.open("csv/ex2_b.csv");
 
     float a;                // initial sequence values
     float prev_a = 30;
@@ -49,8 +49,8 @@ void ex2() {
 
 void ex3() {
     // open result files
-    FILE *file_a = fopen("ex3_a.txt", "w+");
-    FILE *file_b = fopen("ex3_b.txt", "w+");
+    FILE *file_a = fopen("csv/ex3_a.csv", "w+");
+    FILE *file_b = fopen("csv/ex3_b.csv", "w+");
 
     float a = 1.1;      // set initial sequence values
     double b = 1.1;

@@ -218,8 +218,7 @@ void ex3()
 {
     int N = 1;
     std::ofstream times;
-    times.open("ex3.csv");
-    std::cout << "dziala" << std::endl;
+    times.open("csv/ex3.csv");
     for (int i = 0; i < 12; i++)
     {   
         for (int j = 0; j < 10; j++)
@@ -242,7 +241,7 @@ void ex4()
     std::vector <std::complex<double>> shampoo;
 
     std::string line;
-    std::ifstream in("ex4_in.csv");
+    std::ifstream in("csv/ex4_in.csv");
     if (in.is_open())
     {
         while (getline(in, line))
@@ -258,7 +257,7 @@ void ex4()
     else std::cout << "Unable to open file"; 
     std::unique_ptr <fourier::FFT<double>> fft = std::make_unique<fourier::FFT<double>>(fourier::FFT<double>(shampoo));
     std::vector <std::complex<double>> fft_result = fft -> calculate();
-    std::ofstream out("ex4_out.csv");
+    std::ofstream out("csv/ex4_out.csv");
     if (out.is_open())
     {
         for (int i = 0; i < fft_result.size(); i++)
@@ -302,7 +301,7 @@ void ex5()
 {
     int N = 1;
     std::ofstream times;
-    times.open ("ex5.csv");
+    times.open ("csv/ex5.csv");
     
     for (int i = 0; i < 20; i++)
     {   
@@ -318,10 +317,10 @@ void ex5()
 
 int main()
 {
-    //ex1();
-    //ex2();
+    ex1();
+    ex2();
     ex3();
-    //ex4();
-    //ex5();
+    ex4();
+    ex5();
     return 0;
 }

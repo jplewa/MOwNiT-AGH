@@ -111,7 +111,7 @@ namespace interpolation
 		void Interpolate1D(int pointsToInterpolate) override
 		{
 			std::ofstream outfile;
-			outfile.open("cubic.txt", std::ios::out);
+			outfile.open("csv/cubic.csv", std::ios::out);
 
 			std::vector<int> index(pointsToInterpolate);
 			std::vector<float> t;
@@ -143,7 +143,7 @@ namespace interpolation
 				float x = CubicHermite(coeffs, t[i]);	
 
 				std::cout << "Value at " << tx[i] << " = " << x << std::endl;
-				outfile << tx[i] << " " << x << std::endl;
+				outfile << tx[i] << "," << x << std::endl;
 			}
 			outfile.close();
 		};
@@ -178,7 +178,7 @@ namespace interpolation
 		void Interpolate1D(int pointsToInterpolate) override
 		{			
 			std::ofstream outfile;
-			outfile.open("lagrange.txt", std::ios::out);
+			outfile.open("csv/lagrange.csv", std::ios::out);
 			for (int i = 0; i < pointsToInterpolate; ++i)
 			{
 				float percent = ((float)i) / (float(pointsToInterpolate - 1));
@@ -186,7 +186,7 @@ namespace interpolation
             	float y = LagrangeInterpolate(x);
 				
 				std::cout << "Value at " << x << " = " << y << std::endl;
-				outfile << x << " " << y << std::endl;
+				outfile << x << "," << y << std::endl;
 			}
 			outfile.close();
 		};
@@ -444,10 +444,11 @@ void ex6()
 
 int main()
 {
-	ex1();
-	ex2();
+	//ex1();
+	//ex2();
 	ex2Comparison();
-	ex6();
+	//ex5();
+	//ex6();
 	
 	return 0;
 }

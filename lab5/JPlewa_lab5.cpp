@@ -75,13 +75,13 @@ void ex3()
 void ex5()
 {
     std::ofstream jacobi;
-    jacobi.open("ex5_jacobi.csv");
+    jacobi.open("csv/ex5_jacobi.csv");
 
     std::ofstream gauss_seidel;
-    gauss_seidel.open("ex5_gauss_seidel.csv");
+    gauss_seidel.open("csv/ex5_gauss_seidel.csv");
 
     std::ofstream sor;
-    sor.open("ex5_sor.csv");
+    sor.open("csv/ex5_sor.csv");
 
 
     for (int i = 0; i < MATRICES.size(); i++)
@@ -99,9 +99,9 @@ void ex5()
 
 int main() 
 {
-    //ex1();
-    //ex2();
-    //ex3();
+    ex1();
+    ex2();
+    ex3();
     ex5();
     return 0;
 }

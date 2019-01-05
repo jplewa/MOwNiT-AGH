@@ -113,7 +113,7 @@ namespace integration
 		double Integrate(double start, double end) override
 		{
             std::default_random_engine gen;
-            std::uniform_real_distribution distr; 
+            std::uniform_real_distribution<> distr; 
             
             double dx = end - start;
             
@@ -160,7 +160,7 @@ double ex4(std::function<double(double)> fun, int N, double start, double end)
 void comparison()
 {
     std::ofstream comparison;
-    comparison.open("comparison.csv");
+    comparison.open("csv/comparison.csv");
     std::function<double(double)> f1 = [](double x) {return x * x + 2 * x; };
     double start = -5;
     double end = 5;
@@ -215,7 +215,7 @@ void comparison()
 double estimatePi(int N)
 {
     std::default_random_engine gen;
-    std::uniform_real_distribution distr; 
+    std::uniform_real_distribution<> distr; 
     int hits = 0; 
     for (int i = 0; i < N; i++) { 
         float x = distr(gen); 
@@ -232,10 +232,9 @@ double estimatePi(int N)
 void ex3()
 {
     std::ofstream ex3;
-    ex3.open("ex3.csv");
+    ex3.open("csv/ex3.csv");
     for (int i = 1; i <= 1000000000; i *= 10)
     {
-
         ex3 << i << ',' << estimatePi(i) << std::endl;
     }
     ex3.close();

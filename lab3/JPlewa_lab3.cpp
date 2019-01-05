@@ -286,13 +286,13 @@ void ex6()
 
 int main() 
 {
-    //ex1();
-    //ex2a();
-    //ex2b();
-    //ex2c();
-    //ex3();
-    //ex4();
-    //ex5();
+    ex1();
+    ex2a();
+    ex2b();
+    ex2c();
+    ex3();
+    ex4();
+    ex5();
     ex6();
     return 0;
 }
