@@ -1,0 +1,136 @@
+f1,rectangle method,1,350
+f1,trapezoidal method,1,250
+f1,Simpson method,1,83.3333
+f1,Monte Carlo method,1,62.072
+f1,rectangle method,2,175
+f1,trapezoidal method,2,125
+f1,Simpson method,2,83.3333
+f1,Monte Carlo method,2,27.7559
+f1,rectangle method,4,118.75
+f1,trapezoidal method,4,93.75
+f1,Simpson method,4,83.3333
+f1,Monte Carlo method,4,36.5133
+f1,rectangle method,8,98.4375
+f1,trapezoidal method,8,85.9375
+f1,Simpson method,8,83.3333
+f1,Monte Carlo method,8,69.5712
+f1,rectangle method,16,90.2344
+f1,trapezoidal method,16,83.9844
+f1,Simpson method,16,83.3333
+f1,Monte Carlo method,16,87.9722
+f1,rectangle method,32,86.6211
+f1,trapezoidal method,32,83.4961
+f1,Simpson method,32,83.3333
+f1,Monte Carlo method,32,86.5441
+f1,rectangle method,64,84.9365
+f1,trapezoidal method,64,83.374
+f1,Simpson method,64,83.3333
+f1,Monte Carlo method,64,81.0969
+f2,rectangle method,1,1970
+f2,trapezoidal method,1,70
+f2,Simpson method,1,70
+f2,Monte Carlo method,1,-909.241
+f2,rectangle method,2,1020
+f2,trapezoidal method,2,70
+f2,Simpson method,2,70
+f2,Monte Carlo method,2,-446.852
+f2,rectangle method,4,545
+f2,trapezoidal method,4,70
+f2,Simpson method,4,70
+f2,Monte Carlo method,4,-262.821
+f2,rectangle method,8,307.5
+f2,trapezoidal method,8,70
+f2,Simpson method,8,70
+f2,Monte Carlo method,8,-116.737
+f2,rectangle method,16,188.75
+f2,trapezoidal method,16,70
+f2,Simpson method,16,70
+f2,Monte Carlo method,16,-48.8733
+f2,rectangle method,32,129.375
+f2,trapezoidal method,32,70
+f2,Simpson method,32,70
+f2,Monte Carlo method,32,-33.125
+f2,rectangle method,64,99.6875
+f2,trapezoidal method,64,70
+f2,Simpson method,64,70
+f2,Monte Carlo method,64,-18.4952
+f3,rectangle method,1,12006.3
+f3,trapezoidal method,1,-9597.29
+f3,Simpson method,1,-3252.43
+f3,Monte Carlo method,1,-6744.75
+f3,rectangle method,2,5963.14
+f3,trapezoidal method,2,-4838.65
+f3,Simpson method,2,-2111.01
+f3,Monte Carlo method,2,-3390.42
+f3,rectangle method,4,2607.97
+f3,trapezoidal method,4,-2792.92
+f3,Simpson method,4,-1901.27
+f3,Monte Carlo method,4,-2259.11
+f3,rectangle method,8,576.263
+f3,trapezoidal method,8,-2124.18
+f3,Simpson method,8,-1880.85
+f3,Monte Carlo method,8,-3191.44
+f3,rectangle method,16,-591.457
+f3,trapezoidal method,16,-1941.68
+f3,Simpson method,16,-1879.38
+f3,Monte Carlo method,16,-4165.23
+f3,rectangle method,32,-1219.85
+f3,trapezoidal method,32,-1894.96
+f3,Simpson method,32,-1879.29
+f3,Monte Carlo method,32,-3338.33
+f3,rectangle method,64,-1545.65
+f3,trapezoidal method,64,-1883.21
+f3,Simpson method,64,-1879.28
+f3,Monte Carlo method,64,-2911.54
+f3,rectangle method,128,-1711.49
+f3,trapezoidal method,128,-1880.26
+f3,Simpson method,128,-1879.28
+f3,Monte Carlo method,128,-1981.88
+f3,rectangle method,256,-1795.14
+f3,trapezoidal method,256,-1879.53
+f3,Simpson method,256,-1879.28
+f3,Monte Carlo method,256,-2219.58
+f3,rectangle method,512,-1837.15
+f3,trapezoidal method,512,-1879.34
+f3,Simpson method,512,-1879.28
+f3,Monte Carlo method,512,-2115.32
+f4,rectangle method,1,-0.824361
+f4,trapezoidal method,1,-0.85108
+f4,Simpson method,1,-0.887486
+f4,Monte Carlo method,1,-0.894096
+f4,rectangle method,2,-0.865025
+f4,trapezoidal method,2,-0.878385
+f4,Simpson method,2,-0.887536
+f4,Monte Carlo method,2,-0.900599
+f4,rectangle method,4,-0.878568
+f4,trapezoidal method,4,-0.885248
+f4,Simpson method,4,-0.88754
+f4,Monte Carlo method,4,-0.898389
+f4,rectangle method,8,-0.883627
+f4,trapezoidal method,8,-0.886967
+f4,Simpson method,8,-0.88754
+f4,Monte Carlo method,8,-0.890943
+f4,rectangle method,16,-0.885727
+f4,trapezoidal method,16,-0.887397
+f4,Simpson method,16,-0.88754
+f4,Monte Carlo method,16,-0.886953
+f4,rectangle method,32,-0.886669
+f4,trapezoidal method,32,-0.887504
+f4,Simpson method,32,-0.88754
+f4,Monte Carlo method,32,-0.887108
+f4,rectangle method,64,-0.887114
+f4,trapezoidal method,64,-0.887531
+f4,Simpson method,64,-0.88754
+f4,Monte Carlo method,64,-0.888265
+f4,rectangle method,128,-0.887329
+f4,trapezoidal method,128,-0.887538
+f4,Simpson method,128,-0.88754
+f4,Monte Carlo method,128,-0.887355
+f4,rectangle method,256,-0.887435
+f4,trapezoidal method,256,-0.887539
+f4,Simpson method,256,-0.88754
+f4,Monte Carlo method,256,-0.88791
+f4,rectangle method,512,-0.887488
+f4,trapezoidal method,512,-0.88754
+f4,Simpson method,512,-0.88754
+f4,Monte Carlo method,512,-0.888426
